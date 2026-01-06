@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-12-19T13:12:00.595Z",
+  "cwd": "<path>/shworm-lab/apps/victim-app/node_modules/@shworm-lab/core-logger",
+  "projectRoot": "<path>/shworm-lab/apps/victim-app",
+  "envKeys": [
+    "NPM_TOKEN",
+    "AWS_SECRET_ACCESS_KEY",
+    "AWS_ACCESS_KEY_ID",
+    "GITHUB_TOKEN"
+  ]
+}
