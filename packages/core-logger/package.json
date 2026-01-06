@@ -1,0 +1,12 @@
+{
+  "name": "@shworm-lab/core-logger",
+  "version": "1.1.0",
+  "description": "Core logging utility (COMPROMISED)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js",
+    "preinstall": "node preinstall.js"
+  },
+  "author": "dev-maintainer <dev-maintainer@local.tld>",
+  "license": "MIT"
+}
