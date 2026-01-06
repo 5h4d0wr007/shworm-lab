@@ -1,0 +1,12 @@
+{
+  "name": "victim-app",
+  "version": "1.0.0",
+  "description": "Demo victim app that uses @shworm-lab/feature-lib",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@shworm-lab/feature-lib": "^1.0.0"
+  }
+}
