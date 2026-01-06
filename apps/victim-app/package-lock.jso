@@ -1,0 +1,31 @@
+{
+  "name": "victim-app",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "victim-app",
+      "version": "1.0.0",
+      "dependencies": {
+        "@shworm-lab/feature-lib": "^1.0.0"
+      }
+    },
+    "node_modules/@shworm-lab/core-logger": {
+      "version": "1.1.0",
+      "resolved": "http://localhost:4873/@shworm-lab/core-logger/-/core-logger-1.1.0.tgz",
+      "integrity": "sha512-LfW8rtacTm1LhnpDwoDhnxTRzVYR8CanXznTley2Twr9nkqkO8lNQkvFg4VGIYhPKYFUqiI2hvAIFID/8dzrdQ==",
+      "hasInstallScript": true,
+      "license": "MIT"
+    },
+    "node_modules/@shworm-lab/feature-lib": {
+      "version": "1.0.0",
+      "resolved": "http://localhost:4873/@shworm-lab/feature-lib/-/feature-lib-1.0.0.tgz",
+      "integrity": "sha512-fX5F764ZOU2zoIsrrT2IaBEny+LjjpNz76zMbGKeI7jw/rnQ9+HHk9UY9F0klkD7DDffVmlkC0DkCi3EhRHQIw==",
+      "license": "MIT",
+      "dependencies": {
+        "@shworm-lab/core-logger": "^1.0.0"
+      }
+    }
+  }
+}
