@@ -1,0 +1,9 @@
+{
+  "name": "shworm-lab",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "sandbox:up": "docker compose -f sandbox/verdaccio/docker-compose.yaml up -d",
+    "sandbox:down": "docker compose -f sandbox/verdaccio/docker-compose.yaml down"
+  }
+}
