@@ -1,0 +1,14 @@
+{
+  "name": "@shworm-lab/feature-lib",
+  "version": "1.0.0",
+  "description": "Benign feature library depending on core-logger",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "dependencies": {
+    "@shworm-lab/core-logger": "^1.0.0"
+  },
+  "author": "dev-maintainer <dev-maintainer@local.tld>",
+  "license": "MIT"
+}
