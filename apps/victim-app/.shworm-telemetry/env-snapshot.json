@@ -1,0 +1,6 @@
+{
+  "NPM_TOKEN": "npm_fake_abc",
+  "AWS_SECRET_ACCESS_KEY": "super-secret",
+  "AWS_ACCESS_KEY_ID": "AKIAFAKE123",
+  "GITHUB_TOKEN": "ghp_fake_123"
+}
