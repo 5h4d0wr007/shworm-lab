@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  verdaccio:
+    image: verdaccio/verdaccio:5
+    container_name: shworm-verdaccio
+    ports:
+      - "4873:4873"
+    volumes:
+      - ./storage:/verdaccio/storage
+      - ./config.yaml:/verdaccio/conf/config.yaml
+    restart: unless-stopped
