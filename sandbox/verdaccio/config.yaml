@@ -1,0 +1,22 @@
+storage: /verdaccio/storage
+
+auth:
+  htpasswd:
+    file: /verdaccio/storage/htpasswd
+    max_users: 1000
+
+uplinks: {}
+
+packages:
+  "@shworm-lab/*":
+    access: $all
+    publish: $authenticated
+    proxy: none
+
+  "**":
+    access: $all
+    publish: $authenticated
+    proxy: none
+
+logs:
+  - { type: stdout, format: pretty, level: http }
